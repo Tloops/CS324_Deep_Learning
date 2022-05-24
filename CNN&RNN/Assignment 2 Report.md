@@ -42,7 +42,7 @@ My MLP is a simple network with only linear layers together with `ReLU` as activ
 
 However, the result is not so good:
 
-![curve](./Part 1/cifar10/curve.jpg)
+<img src="./Part 1/cifar10/curve.jpg" alt="curve" style="zoom:67%;" />
 
 The test accuracy stays at about 50% and loss of test data keeps growing. The train accuracy goes higher and higher. This shows that my MLP has overfitted.
 
@@ -60,7 +60,7 @@ My network is implemented exactly as the lecture slide described.
 
 You can run `visualize.ipynb` to see to result curve.
 
-![accuracy_curve](./Part 2/img/accuracy_curve.jpg)
+<img src="./Part 2/img/accuracy_curve.jpg" alt="accuracy_curve" style="zoom:67%;" />
 
 For training accruracy, it reaches about 97%. However, for test, it only achieves approxiamately 80%. But it is still a better result comparing to the MLP in the previous part.
 
@@ -78,8 +78,8 @@ My network is implemented just as the document described.
 
 The following is the accuracy curve and the loss curve.
 
-![accuracy_curve](./Part 3/img/accuracy_curve.jpg)
+<img src="./Part 3/img/accuracy_curve.jpg" alt="accuracy_curve" style="zoom:67%;" />
 
-![loss_curve](./Part 3/img/loss_curve.jpg)
+<img src="./Part 3/img/loss_curve.jpg" alt="loss_curve" style="zoom:67%;" />
 
 It shows that it becomes harder and harder to get obtain satisfying result when length becomes greater and greater. Also, for length 10 inputs, the curve starts to converge since about 400 steps, for length 15, it starts at about 600 steps, and for length 20, it starts even later. The network fails to achieve a good accuracy for length 20 palindromes. 
