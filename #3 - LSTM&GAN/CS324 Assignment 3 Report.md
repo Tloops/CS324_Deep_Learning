@@ -14,9 +14,9 @@ I implement the LSTM exactly as described in the document. **Talk is cheap, just
 
 Similar to my last assignment, I tried length **5, 10, 15 and 20** on my LSTM model. I also tried **length 50** to show the strength of LSTM. The result is shown below, the accuracy curve and the loss curve.
 
-![accuracy_curve](./Part 1/img/accuracy_curve.jpg)
+<img src="./Part 1/img/accuracy_curve.jpg" alt="accuracy_curve" style="zoom:67%;" />
 
-![loss_curve](./Part 1/img/loss_curve.jpg)
+<img src="./Part 1/img/loss_curve.jpg" alt="loss_curve" style="zoom:67%;" />
 
 It shows that it really easy for LSTM to find the best solutions for length 5, 10, 15 and 20 inputs. For length 50 inputs, the network became harder to converge, but it still find a good solution before 1500 steps. This is impossible for the RNN we implement in the last assignment to achieve.
 
@@ -95,16 +95,15 @@ See `task2.ipynb` for this part:
 
 Beginning result: 0, 1000, 2000, 3000
 
-![0](./Part 2/images/0.png)![2000](./Part 2/images/1000.png)![1000](./Part 2/images/2000.png)![3000](./Part 2/images/3000.png)
+<img src="./Part 2/images/0.png" alt="0" style="zoom:67%;" /> <img src="./Part 2/images/1000.png" alt="1000" style="zoom:67%;" /> <img src="./Part 2/images/2000.png" alt="2000" style="zoom:67%;" /> <img src="./Part 2/images/3000.png" alt="3000" style="zoom:67%;" />
 
 Middle result: 93000, 94000, 95000
 
-![93000](./Part 2/images/93000.png)![94000](./Part 2/images/94000.png)![95000](./Part 2/images/95000.png)
+<img src="./Part 2/images/93000.png" alt="93000" style="zoom:67%;" /> <img src="./Part 2/images/94000.png" alt="94000" style="zoom:67%;" /> <img src="./Part 2/images/95000.png" alt="95000" style="zoom:67%;" />
 
 End result: 185000, 186000, 187000
 
-![185000](./Part 2/images/185000.png)![186000](./Part 2/images/186000.png)![187000](./Part 2/images/187000.png)
-
+<img src="./Part 2/images/185000.png" alt="185000" style="zoom:67%;" /> <img src="./Part 2/images/186000.png" alt="186000" style="zoom:67%;" /> <img src="./Part 2/images/187000.png" alt="187000" style="zoom:67%;" />
 
 
 ### Task 3
@@ -112,6 +111,5 @@ End result: 185000, 186000, 187000
 See `task3.ipynb` for this part.
 
 We random sample the begin and the end point, here particularly we got 4 and 1. The following is the result:
-
-![begin](./Part 2/images/begin.png)![res0](./Part 2/images/res0.png)![res1](./Part 2/images/res1.png)![res2](./Part 2/images/res2.png)![res3](./Part 2/images/res3.png)![res4](./Part 2/images/res4.png)![res5](./Part 2/images/res5.png)![res6](./Part 2/images/res6.png)![res7](./Part 2/images/res7.png)![end](./Part 2/images/end.png)
+<img src="./Part 2/images/begin.png" alt="begin" style="zoom:67%;" /> <img src="./Part 2/images/res0.png" alt="res0" style="zoom:67%;" /> <img src="./Part 2/images/res1.png" alt="res1" style="zoom:67%;" /> <img src="./Part 2/images/res2.png" alt="res2" style="zoom:67%;" /> <img src="./Part 2/images/res3.png" alt="res3" style="zoom:67%;" /> <img src="./Part 2/images/res4.png" alt="res4" style="zoom:67%;" /> <img src="./Part 2/images/res5.png" alt="res5" style="zoom:67%;" /> <img src="./Part 2/images/res6.png" alt="res6" style="zoom:67%;" /> <img src="./Part 2/images/res7.png" alt="res7" style="zoom:67%;" /> <img src="./Part 2/images/end.png" alt="end" style="zoom:67%;" />
 
